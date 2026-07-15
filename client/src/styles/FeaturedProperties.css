@@ -1,0 +1,22 @@
+.featured-section{
+    padding:80px 8%;
+    background:white;
+    text-align:center;
+}
+
+.featured-section h2{
+    font-size:40px;
+    color:#1e293b;
+    margin-bottom:10px;
+}
+
+.featured-section p{
+    color:#64748b;
+    margin-bottom:40px;
+}
+
+.featured-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}

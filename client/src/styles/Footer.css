@@ -1,0 +1,36 @@
+.footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:50px;
+
+    text-align:center;
+}
+
+.footer-links{
+
+    margin:25px 0;
+}
+
+.footer-links a{
+
+    color:white;
+
+    margin:0 20px;
+
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+
+    color:#60a5fa;
+}
+
+.copyright{
+
+    margin-top:20px;
+
+    color:#cbd5e1;
+}

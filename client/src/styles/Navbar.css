@@ -1,0 +1,141 @@
+.navbar{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 7%;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#334155;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#2563eb;
+
+}
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.login-btn,
+.register-btn,
+.logout-btn{
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.login-btn{
+
+    background:white;
+
+    border:2px solid #2563eb;
+
+    color:#2563eb;
+
+}
+
+.login-btn:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.register-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.register-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.logout-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+}
+
+.logout-btn:hover{
+
+    background:#dc2626;
+
+}
+
+.welcome{
+
+    color:#334155;
+
+    font-size:15px;
+
+}

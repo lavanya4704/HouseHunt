@@ -1,0 +1,53 @@
+.edit-property{
+    display:flex;
+    justify-content:center;
+    padding:50px 20px;
+}
+
+.edit-card{
+    width:100%;
+    max-width:700px;
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.edit-card h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:30px;
+}
+
+.edit-card form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.edit-card input,
+.edit-card textarea{
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.edit-card textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+.edit-card button{
+    padding:14px;
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.edit-card button:hover{
+    background:#1d4ed8;
+}
