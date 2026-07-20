@@ -1,5 +1,14 @@
 # 🏡 HouseHunt
 
+## 🎥 Project Demo
+
+Watch the complete project demonstration here:
+
+🔗 **Demo Video:**  
+https://drive.google.com/file/d/1A3IYFEkoFALvfJwPHfofrBhAfUqUkbkG/view?usp=sharing
+
+---
+
 HouseHunt is a full-stack MERN (MongoDB, Express.js, React.js, and Node.js) web application designed to simplify property rental and management. The platform connects property owners and tenants through a secure, user-friendly interface, enabling users to browse rental properties, schedule visits, manage listings, submit reviews, and communicate with property owners seamlessly.
 
 ---
