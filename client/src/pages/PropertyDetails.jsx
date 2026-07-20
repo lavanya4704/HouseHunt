@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import "../styles/PropertyDetails.css";
+import "./styles/PropertyDetails.css";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 

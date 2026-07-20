@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../styles/Home.css";
+import "./styles/Home.css";
 
 import FeaturedProperties from "../components/FeaturedProperties";
 import Stats from "../components/Stats";

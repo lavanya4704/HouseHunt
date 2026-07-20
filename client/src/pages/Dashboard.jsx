@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import PropertyCard from "../components/PropertyCard";
 import StatsCard from "../components/StatsCard";
 
-import "../styles/Dashboard.css";
+import "./styles/Dashboard.css";
 
 function Dashboard() {
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import PropertyCard from "../components/PropertyCard";
-import "../styles/Properties.css";
+import "./styles/Properties.css";
 
 function Wishlist() {
   const [wishlist, setWishlist] = useState([]);

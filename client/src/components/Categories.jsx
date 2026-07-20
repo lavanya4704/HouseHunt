@@ -1,4 +1,4 @@
-import "../styles/Categories.css";
+import "../pages/styles/Categories.css";
 
 function Categories(){
 

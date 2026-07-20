@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
-import "../styles/AddProperty.css";
+import "./styles/AddProperty.css";
 
 function AddProperty() {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import PropertyCard from "../components/PropertyCard";
-import "../styles/Properties.css";
+import "./styles/Properties.css";
 import Loader from "../components/Loader";
 
 function Properties() {

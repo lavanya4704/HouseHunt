@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/PropertyCard.css";
+import "../pages/styles/PropertyCard.css";
 
 function PropertyCard({ property }) {
 

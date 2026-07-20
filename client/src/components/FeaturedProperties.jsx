@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import PropertyCard from "./PropertyCard";
-import "../styles/FeaturedProperties.css";
+import "../pages/styles/FeaturedProperties.css";
 
 function FeaturedProperties() {
 

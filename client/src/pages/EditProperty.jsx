@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../styles/EditProperty.css";
+import "./styles/EditProperty.css";
 import toast from "react-hot-toast";
 function EditProperty() {
 
