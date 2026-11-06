@@ -26,7 +26,7 @@ function EditProperty() {
     try {
 
       const { data } = await axios.get(
-        `http://localhost:5000/api/properties/${id}`
+        `https://house-hunt-qif4.vercel.app/api/properties/${id}`
       );
 
       setFormData({
@@ -62,7 +62,7 @@ function EditProperty() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/properties/${id}`,
+        `https://house-hunt-qif4.vercel.app/api/properties/${id}`,
         formData,
         {
           headers: {

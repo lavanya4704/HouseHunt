@@ -15,7 +15,7 @@ function FeaturedProperties() {
     try {
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/properties"
+        "https://house-hunt-qif4.vercel.app/api/properties"
       );
 
       setProperties(data.slice(0, 3));

@@ -16,7 +16,7 @@ function Login() {
     try {
 
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://house-hunt-qif4.vercel.app/api/auth/login",
         {
           email,
           password

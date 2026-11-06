@@ -15,7 +15,7 @@ function Properties() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/properties")
+    fetch("https://house-hunt-qif4.vercel.app/api/properties")
       .then((res) => res.json())
       .then((data) => {
         setProperties(data);

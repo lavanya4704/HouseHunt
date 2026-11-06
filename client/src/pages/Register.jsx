@@ -19,7 +19,7 @@ function Register() {
     try {
 
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://house-hunt-qif4.vercel.app/api/auth/register",
         {
           name,
           email,

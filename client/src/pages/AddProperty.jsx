@@ -65,7 +65,7 @@ function AddProperty() {
       data.append("image", image);
 
       await axios.post(
-        "http://localhost:5000/api/properties",
+        "https://house-hunt-qif4.vercel.app/api/properties",
         data,
         {
           headers: {

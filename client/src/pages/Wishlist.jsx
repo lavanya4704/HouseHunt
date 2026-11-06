@@ -15,7 +15,7 @@ function Wishlist() {
       const token = localStorage.getItem("token");
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/wishlist",
+        "https://house-hunt-qif4.vercel.app/api/wishlist",
         {
           headers: {
             Authorization: `Bearer ${token}`,

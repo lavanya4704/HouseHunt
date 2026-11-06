@@ -40,7 +40,7 @@ function Dashboard() {
       setLoading(true);
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/properties"
+        "https://house-hunt-qif4.vercel.app/api/properties"
       );
 
       const myProperties = data.filter(
@@ -75,7 +75,7 @@ function Dashboard() {
     try {
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/visits",
+        "https://house-hunt-qif4.vercel.app/api/visits",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -104,7 +104,7 @@ function Dashboard() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/visits/${id}`,
+        `https://house-hunt-qif4.vercel.app/api/visits/${id}`,
         {
           status: "Accepted",
         },
@@ -140,7 +140,7 @@ function Dashboard() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/visits/${id}`,
+        `https://house-hunt-qif4.vercel.app/api/visits/${id}`,
         {
           status: "Rejected",
         },
@@ -176,7 +176,7 @@ function Dashboard() {
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/properties/${id}`,
+        `https://house-hunt-qif4.vercel.app/api/properties/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

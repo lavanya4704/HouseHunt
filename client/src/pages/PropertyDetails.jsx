@@ -22,7 +22,7 @@ const [visitTime, setVisitTime] = useState("");
   const fetchProperty = async () => {
     try {
       const { data } = await axios.get(
-        `http://localhost:5000/api/properties/${id}`
+        `https://house-hunt-qif4.vercel.app/api/properties/${id}`
       );
 
       setProperty(data);
@@ -35,7 +35,7 @@ const [visitTime, setVisitTime] = useState("");
   const fetchReviews = async () => {
     try {
       const { data } = await axios.get(
-        `http://localhost:5000/api/reviews/${id}`
+        `https://house-hunt-qif4.vercel.app/api/reviews/${id}`
       );
 
       setReviews(data);
@@ -55,7 +55,7 @@ const [visitTime, setVisitTime] = useState("");
 
     try {
       await axios.post(
-        "http://localhost:5000/api/wishlist",
+        "https://house-hunt-qif4.vercel.app/api/wishlist",
         {
           propertyId: property._id,
         },
@@ -91,7 +91,7 @@ const [visitTime, setVisitTime] = useState("");
 
     try {
       await axios.post(
-        "http://localhost:5000/api/reviews",
+        "https://house-hunt-qif4.vercel.app/api/reviews",
         {
           propertyId: property._id,
           rating,
@@ -131,7 +131,7 @@ const scheduleVisit = async () => {
   try {
 
     await axios.post(
-      "http://localhost:5000/api/visits",
+      "https://house-hunt-qif4.vercel.app/api/visits",
       {
         propertyId: property._id,
         visitDate,
